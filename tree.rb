@@ -43,6 +43,8 @@ left2 = Node.new(150,nil,nil)
 right2 = Node.new(175,nil,nil)
 left1 = Node.new(100,nil,nil)
 right1 = Node.new(125,nil,nil)
+
+
 left = Node.new(50,left1,right1)
 right = Node.new(75,left2,right2)
 root = Node.new(25,left,right)
